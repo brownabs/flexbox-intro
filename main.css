@@ -60,6 +60,29 @@ footer {
    min-height: 175px;
  }
 
+ .catsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 70px;
+ }
+
+.cat {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100px;
+  width: 200px;
+  margin:7px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow:  5px 5px 5px rgba(85, 16, 16, 0.7)
+
+}
+.cat img {
+  min-width: 200px;
+  min-height: 175px;
+}
  h5 {
    font-size: 15px;
    font-family: Architects Daughter;
