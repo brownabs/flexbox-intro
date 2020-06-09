@@ -1,0 +1,23 @@
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  font-family: 'Titillium Web', sans-serif;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navContent {
+  display: flex;
+  justify-content: flex-start;
+}
+
+h2 {
+  margin: auto;
+}
