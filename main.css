@@ -18,8 +18,16 @@
   justify-content: flex-start;
 }
 
+.brandImage {
+  border-radius: 4px;
+}
 h2 {
   margin: auto;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 3em;
+  font-family: Architects Daughter;
 }
 
 footer {
@@ -29,3 +37,30 @@ footer {
   width: 100%;
   text-align: center;            
 }
+.dogsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 70px;
+}
+
+.dog {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100px;
+  width: 200px;
+  margin:7px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow:  5px 5px 5px rgba(85, 16, 16, 0.7)
+}
+ .dog img {
+   min-width: 200px;
+   min-height: 175px;
+ }
+
+ h5 {
+   font-size: 15px;
+   font-family: Architects Daughter;
+ }
