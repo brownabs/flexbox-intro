@@ -10,7 +10,7 @@
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 30px;
 }
 
 .navContent {
@@ -20,7 +20,10 @@
 
 .brandImage {
   border-radius: 4px;
+  height: 30px;
+  padding-top: 2px;
 }
+
 h2 {
   margin: auto;
   display: flex;
@@ -47,13 +50,10 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 100px;
+  height: 200px;
   width: 200px;
   margin:7px;
   padding: 10px;
-  border: 1px solid black;
-  border-radius: 5px;
-  box-shadow:  5px 5px 5px rgba(85, 16, 16, 0.7)
 }
  .dog img {
    min-width: 200px;
@@ -74,9 +74,6 @@ footer {
   width: 200px;
   margin:7px;
   padding: 10px;
-  border: 1px solid black;
-  border-radius: 5px;
-  box-shadow:  5px 5px 5px rgba(85, 16, 16, 0.7)
 
 }
 .cat img {
